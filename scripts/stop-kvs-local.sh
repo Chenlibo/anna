@@ -15,7 +15,7 @@
 #  limitations under the License.
 
 if [ -z "$1" ]; then
-  echo "Usage: ./scripts/stop_local.sh remove-logs"
+  echo "Usage: ./scripts/stop-kvs-local.sh remove-logs"
   exit 1
 fi
 

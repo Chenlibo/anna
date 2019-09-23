@@ -27,3 +27,7 @@ SET(LIBRARY_DEPENDENCIES
 ADD_EXECUTABLE(anna-cli cli.cpp)
 TARGET_LINK_LIBRARIES(anna-cli ${LIBRARY_DEPENDENCIES})
 ADD_DEPENDENCIES(anna-cli zeromq zeromqcpp)
+
+ADD_EXECUTABLE(anna-objstoreServer server.cpp)
+TARGET_LINK_LIBRARIES(anna-objstoreServer ${LIBRARY_DEPENDENCIES})
+ADD_DEPENDENCIES(anna-objstoreServer zeromq zeromqcpp)

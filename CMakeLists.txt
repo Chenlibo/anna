@@ -72,6 +72,7 @@ INCLUDE_DIRECTORIES(${PROTOBUF_INCLUDE_DIR})
 PROTOBUF_GENERATE_CPP(PROTO_SRC PROTO_HEADER
   ./common/proto/anna.proto
   ./common/proto/shared.proto
+  ./common/proto/objstore.proto
   ./include/proto/metadata.proto
 )
 
